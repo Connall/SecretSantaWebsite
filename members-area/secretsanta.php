@@ -20,7 +20,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>The Indie Stone Secret Santa - Members Area</title>
+    <title>Secret Santa - Members Area</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -170,7 +170,7 @@
                                               $wishlistrequest = "";
 
                                               if ($target['profilevisibility'] == 1) {
-                                                $wishlistrequest = "<div class='alert alert-info'><p>This persons profile is private, in order to get their wishlist you can make a request for their wishlist information. Do not send a friend request, instead ask Connall or send an e-mail to connall@terminal-control.com</p></div>";
+                                                $wishlistrequest = "<div class='alert alert-info'><p>This persons profile is private, in order to get their wishlist you can make a request for their wishlist information.</p></div>";
                                               }
 
                                               echo "
@@ -188,11 +188,6 @@
                                                     <td>Wishlist Choice</td>
                                                     <td>".$wishlistchoice."".$wishlistrequest."</td>
                                                     <td>Whether they wanted a game from their wishlist, or any game from the Steam Store.</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>The Indie Stone Username</td>
-                                                    <td>".$target['tisusername']."</td>
-                                                    <td>Their Indie Stone forum username that we have on record.</td>
                                                 </tr>
                                                 <tr>
                                                     <td>Extra information</td>

@@ -39,7 +39,7 @@
     if ($sql->num_rows > 0) {
       header("Location: /members-area/index.php");
     } else {
-      $sqlInsert = "INSERT INTO users (steamid, profilevisibility, profilestate, personname, profileurl, wishlist, tisusername, tisconfirmed, secretsanta, backupbuyer) VALUES ('".$steamprofile['steamid']."', ".$steamprofile['communityvisibilitystate'].", ".$steamprofile['profilestate'].", '".$steamprofile['personaname']."', '".$steamprofile['profileurl']."', ".$wishlist.", '".$tisusername."', 0, '0', ".$backupbuyer.");";
+      $sqlInsert = "INSERT INTO users (steamid, profilevisibility, profilestate, personname, profileurl, wishlist, secretsanta, backupbuyer) VALUES ('".$steamprofile['steamid']."', ".$steamprofile['communityvisibilitystate'].", ".$steamprofile['profilestate'].", '".$steamprofile['personaname']."', '".$steamprofile['profileurl']."', ".$wishlist.", '0', ".$backupbuyer.");";
       $conn->query($sqlInsert);
       $sqlInsert = "UPDATE users SET extrainfo='".$extrainformation."' WHERE steamid=".$steamprofile['steamid'].";";
       $conn->query($sqlInsert);
@@ -58,7 +58,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>The Indie Stone Secret Santa</title>
+    <title>Secret Santa</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -94,7 +94,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php">The Indie Stone Secret Santa</a>
+                <a class="navbar-brand" href="index.php">Secret Santa</a>
             </div>
             <!-- /.navbar-header -->
             <!-- /.navbar-top-links -->

@@ -1,6 +1,6 @@
 <?php
-$api_key = "yourkeyhere"; // Your Steam WebAPI-Key found at http://steamcommunity.com/dev/apikey
-$domainname = "yourdomainname"; // The main URL of your website displayed in the login page
+$api_key = "apikey"; // Your Steam WebAPI-Key found at http://steamcommunity.com/dev/apikey
+$domainname = "domain"; // The main URL of your website displayed in the login page
 $button_style = "small"; // Style of the login button [small|large_no|large]
 $logout_page = ""; // Page to redirect to after a successfull logout (from the root folder of your website)
 

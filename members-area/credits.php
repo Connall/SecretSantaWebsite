@@ -20,7 +20,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>The Indie Stone Secret Santa - Members Area</title>
+    <title>Secret Santa - Members Area</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -56,7 +56,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="../index.php">The Indie Stone Secret Santa</a>
+                <a class="navbar-brand" href="../index.php">Secret Santa</a>
             </div>
             <!-- /.navbar-header -->
 
@@ -119,13 +119,12 @@
                 </div>
                 <!-- /.row -->
             </div>
-            <p><b>Connall Lindsay</b> - For building the site and actually developing the systems in place.</p>
+            <p><b><a href="http://www.terminal-control.com/">Connall Lindsay</a></b> - For building the site and actually developing the systems in place.</p>
             <p><b>Kirrus</b> - For hooking me up with the subdomain and helping me troubleshoot the Forums API to get forum usernames automatically instead of asking for it. (Maybe next year.)</p>
             <p><b>Nasko</b> - For pointing out the spelling error I should have noticed.</p>
             <p><b>Rathlord</b> - For having a bash about the website so I could make sure it was working for others.</p>
-            <p><b>RoboMatt & EnigmaGrey</b> - For helping in the discussions about the Secret Santa</p>
-            <p><b>Huge thanks to the developers for letting me use the subdomain and giving me the go ahead to do this. :) <3</b>/p>
-            <p><b> <3 to The Indie Stone community in general :)</b></p>
+            <p><b>RoboMat & EnigmaGrey</b> - For helping in the discussions about the Secret Santa</p>
+            <p><b> <3 to The Indie Stone & Community :)</b></p>
             <!-- /.container-fluid -->
         </div>
         <!-- /#page-wrapper -->

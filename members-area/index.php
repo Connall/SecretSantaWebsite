@@ -20,7 +20,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>The Indie Stone Secret Santa - Members Area</title>
+    <title>Secret Santa - Members Area</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -56,7 +56,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="../index.php">The Indie Stone Secret Santa</a>
+                <a class="navbar-brand" href="../index.php">Secret Santa</a>
             </div>
             <!-- /.navbar-header -->
 
@@ -183,12 +183,6 @@
                                             $assignedperson= "You have been assigned: <a href='".$sql['profileurl']."'>".$sql['personname']."</a>";
                                           }
 
-                                          if ($information['tisconfirmed'] == 1) {
-                                            $confirmeduser = "<div class='alert alert-success'>You are a confirmed user on the Indie Stone forums!</div>";
-                                          } else {
-                                            $confirmeduser = "<div class='alert alert-danger'>You are an unconfirmed user on the Indie Stone forums. To participate, you will need to be confirmed by Connall</div>";
-                                          }
-
                                           echo "
                                             <tr>
                                                 <td>Steam Name</td>
@@ -204,11 +198,6 @@
                                                 <td>Wishlist Choice</td>
                                                 <td>".$wishlistchoice."</td>
                                                 <td>Whether you wished you wanted a game from your wishlist, or any game from the Steam Store.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>The Indie Stone Username</td>
-                                                <td>".$information['tisusername']."</td>
-                                                <td>The Indie Stone forum username that we have on record.</td>
                                             </tr>
                                             <tr>
                                                 <td>Backup Buyer</td>
@@ -232,11 +221,6 @@
                                                     </div>
                                                     <!-- /.modal-dialog -->
                                                 </div>
-                                            </tr>
-                                            <tr>
-                                                <td>Confirmed User</td>
-                                                <td>".$confirmeduser."</td>
-                                                <td>Whether you have been confirmed as your user on the Indie Stone forums.</td>
                                             </tr>
                                             <tr>
                                                 <td>Assigned Person</td>

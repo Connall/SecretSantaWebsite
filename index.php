@@ -18,7 +18,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>The Indie Stone Secret Santa</title>
+    <title>Secret Santa</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -54,7 +54,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php">The Indie Stone Secret Santa</a>
+                <a class="navbar-brand" href="index.php">Secret Santa</a>
             </div>
             <!-- /.navbar-header -->
 
@@ -129,7 +129,6 @@
                                   -Steam profile url <br />
                                   -Steam profile visibility <br />
                                   -Steam profile state <br />
-                                  -TIS Forum Username <br />
                                   -Your preferences (From the form ahead.)<br />
                                   We do not sell on this information and we will only share certain information with the Secret Santa that is assigned to you. The database will be deleted after the Secret Santa is completed.
                               </div>
@@ -167,10 +166,6 @@
                           <form class='form-signin' role='form' action='registered.php' method='post'>
                             <h2 class='form-signin-heading'>Secret Santa Registration</h2>
                             <br />
-                            <label>The Indie Stone Forum Username</label>
-                            <input class='form-control' name='tisusername'>
-                            <p class='help-block'>Your TIS Forum Username, this needs to be valid as we will use it to confirm you have signed up for this secret santa. It should have at least one post on it.</p>
-                            <br />
                             <p>Are you willing to be a backup buyer? (See thread for more details)<br />
                               <input type='radio' name='backupbuyer' value='1' required>Yes<br /><input type='radio' name='backupbuyer' value='0'>No
                             </p>
@@ -185,12 +180,6 @@
                             </p>
                             <p>You understand that if you do not complete instructions given to you by the necessary date, that you will be removed from the list and will in no way be reimbursed. <br />
                               <input type='checkbox' name='agreement3' value='agree3' required>Yes</p>
-                            </p>
-                            <p>You are willing to have Connall added to your friend list, and that should you remove/block him before the Secret Santa is over, will lead to your removal from the Secret Santa list.
-                              <input type='checkbox' name='agreement4' value='agree4' required>Yes
-                            </p>
-                            <p>You understand you will need to have your TIS username confirmed and will need to check your PM's regularly until you get the message. <br />
-                              <input type='checkbox' name='agreement5' value'agree5' required>Yes
                             </p>
                             <label>Extra Information/Personal Game preferences. Examples help.</label>
                             <textarea class='form-control' rows='3' name='extrainfo'></textarea>

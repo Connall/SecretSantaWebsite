@@ -20,7 +20,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>The Indie Stone Secret Santa - Members Area</title>
+    <title>Secret Santa - Members Area</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -56,7 +56,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="../index.php">The Indie Stone Secret Santa</a>
+                <a class="navbar-brand" href="../index.php">Secret Santa</a>
             </div>
             <!-- /.navbar-header -->
 

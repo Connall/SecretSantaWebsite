@@ -20,7 +20,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>The Indie Stone Secret Santa - Members Area</title>
+    <title>Secret Santa - Members Area</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -56,7 +56,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="../index.php">The Indie Stone Secret Santa</a>
+                <a class="navbar-brand" href="../index.php">Secret Santa</a>
             </div>
             <!-- /.navbar-header -->
 
@@ -118,8 +118,8 @@
                 </div>
                 <!-- /.row -->
             </div>
-            <p><b>9th of December</b> - Applications Closed. <b>[COMPLETE]</b></p>
-            <p><b>14th of December</b> - Wishlists must be updated by this point. If you don’t have at least one game in the $6.99-15 (See currency conversion below) range. It’s fine if it’s under, but if you have only high priced games and you specified wishlist only, then you will be removed from the secret santa list.<b>[ONGOING]</b></p>
+            <p><b>9th of December</b> - Applications Closed.</p>
+            <p><b>14th of December</b> - Wishlists must be updated by this point. If you don’t have at least one game in the $6.99-15 (See currency conversion below) range. It’s fine if it’s under, but if you have only high priced games and you specified wishlist only, then you will be removed from the secret santa list.</p>
             <p><b>15th of December</b> - Secret Santas assigned.</p>
             <p><b>21st of December</b> - Gifts bought and checked.</p>
             <p><b>22nd of December</b> - Start of distribution process.</p>
