@@ -96,17 +96,6 @@
 
               $conn = mysqli_connect($SERVERHOST, $USERNAME, $PASSWORD, $DBNAME);
 
-              define( 'IPS_XML_RPC_DEBUG_ON'  , 0 );
-              define( 'IPS_XML_RPC_DEBUG_FILE', '' );
-
-              require( "ipboard/classXmlRpc.php" );
-
-
-              $classXmlRpc	= new classXmlRpc();
-
-
-
-
               if (!$conn) {
                 die("Connection failed: " . mysqli_connect_error());
               }
