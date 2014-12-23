@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Secret Santa Website by Connall</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Secret Santa Website</h1>
+        <p>Repository for Secret Santa Website</p>
+        <p class="view"><a href="https://github.com/Connall/SecretSantaWebsite">View the Project on GitHub <small>Connall/SecretSantaWebsite</small></a></p>
+        <ul>
+          <li><a href="https://github.com/Connall/SecretSantaWebsite/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/Connall/SecretSantaWebsite/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/Connall/SecretSantaWebsite">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="secret-santa-website" class="anchor" href="#secret-santa-website" aria-hidden="true"><span class="octicon octicon-link"></span></a>Secret Santa Website</h1>
+
+<p>This was originally created for The Indie Stone secret santa program on the forums. It went over fairly well but I figured I would extend the functionality of the site and allow it to be used in a more general manner, so people could throw this site on their server and just have a go of it.</p>
+
+<p>It currently uses Steam as a login for members since the Secret Santa program was done in exchange for games, so this is obviously a very game cenetred program rather than a general secret santa program. Some of the things requires messing around in the code or the database. Which is obviously not the best way of doing things, so I'm going to aim to resolve that before moving on to my next project.</p>
+
+<p>As I said this is a very gaming centric secret santa, you shouldn't be using this for regular secret santa since it's specifically integrated for use with Steam. If you're interested in the process and what was used then feel free to read on.</p>
+
+<h1>
+<a id="server-setup" class="anchor" href="#server-setup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Server Setup</h1>
+
+<p>I used a LAMP setup server (Linux Apache MySQL PHP) I've heard good things about nginx but I haven't really looked at it and I'm not so versed in the ways of Apache already, that I generally don't have much of an opinion of one or the other. I'm currently at the knowledge of they both do what I want, so I'm not fussed about moving it over.</p>
+
+<p>This was also my first major PHP project, so I'm very much still a learner doing all this in their spare time. I'm sure there are some things you don't find desireable or irritating or unsecure and if you do then please tell me! Or even better do a little pull and push. :)</p>
+
+<p>I used the Steam Authentication system by SmItH197 <a href="https://github.com/SmItH197/SteamAuthentication">https://github.com/SmItH197/SteamAuthentication</a></p>
+
+<p>I have included it in here as well, but you should go read up on it so that you set it up correctly, as I won't talk about it here.</p>
+
+<p>I have included a config file which can be used to set some basic things, such as your connection to a MySQL database and such.</p>
+
+<h1>
+<a id="the-story" class="anchor" href="#the-story" aria-hidden="true"><span class="octicon octicon-link"></span></a>The Story...</h1>
+
+<p>So yeah, this was originally created for The Indie Stone as a way to help facilitate an easier way of conducting a secret santa. The original plan was to just use Google Docs, but one night after doing a lot of mind numbing coursework I just decided fuck it, learned what PHP I could, then went to work.</p>
+
+<p>I imagine my code is not terribly desirable and that I'm cool with, I don't really use functions or classes in it mainly because I didn't see much point but I could be horrifically wrong about that.</p>
+
+<p>It seemed to be able to do the job, as I said though it did lack some functionality that required direct code interaction or database messing about, which means over the coming weeks I'll add more functionality to the site and move onto the next project.</p>
+
+<p>Enjoy!</p>
+
+<h1>
+<a id="credits" class="anchor" href="#credits" aria-hidden="true"><span class="octicon octicon-link"></span></a>Credits</h1>
+
+<p>Connall Lindsay (Me) - For developing the systems in place.</p>
+
+<p>Kirrus - Helped with certain features that was for The Indie Stone community only, unfortunately the features never worked. Still &lt;3 for the help.</p>
+
+<p>Nasko - For pointing out the spelling error I should have noticed.</p>
+
+<p>Rathlord - For having a bash about the website so I could make sure it was working for others.</p>
+
+<p>RoboMatt &amp; EnigmaGrey - For helping in the discussions about the Secret Santa</p>
+
+<p>&lt;3 to The Indie Stone community in general :)</p>
+      </section>
+    </div>
+    <footer>
+      <p>Project maintained by <a href="https://github.com/Connall">Connall</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
